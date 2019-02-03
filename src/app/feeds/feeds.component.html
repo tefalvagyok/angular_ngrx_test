@@ -1,0 +1,8 @@
+<ul class="feeds">
+  <li *ngFor="let f of feeds">
+    <a routerLink="/detail/{{f.id}}">
+      <span class="badge">{{f.id}}</span> {{f.name}}
+    </a>
+  </li>
+</ul>
+
